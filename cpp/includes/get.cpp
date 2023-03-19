@@ -2,7 +2,7 @@ using namespace std;
 // Add two elements
 int getInt(char c)
 {
-    char* numList = "0123456789";
+    string numList = "0123456789";
     for(int i=0;i<=9;i++)
     {
         if(numList[i]==c)
