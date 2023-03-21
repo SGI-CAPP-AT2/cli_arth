@@ -8,7 +8,7 @@ int getInt(char c)
         if(numList[i]==c)
             return i;
     }
-    return 0;
+    return int(c);
 }
 double getDouble(string a)
 {
